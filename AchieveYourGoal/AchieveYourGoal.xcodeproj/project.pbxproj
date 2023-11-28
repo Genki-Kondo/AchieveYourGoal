@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B502FF52B1616C4008B35A0 /* PlusButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B502FF42B1616C4008B35A0 /* PlusButtonImage.swift */; };
+		7B502FF72B161DF0008B35A0 /* HomeConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B502FF62B161DF0008B35A0 /* HomeConfigView.swift */; };
 		7B9249EE2B13488A000A2DB2 /* AchieveYourGoalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9249ED2B13488A000A2DB2 /* AchieveYourGoalApp.swift */; };
 		7B9249F02B13488A000A2DB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9249EF2B13488A000A2DB2 /* HomeView.swift */; };
 		7B9249F22B13488D000A2DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9249F12B13488D000A2DB2 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B502FF42B1616C4008B35A0 /* PlusButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonImage.swift; sourceTree = "<group>"; };
+		7B502FF62B161DF0008B35A0 /* HomeConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigView.swift; sourceTree = "<group>"; };
 		7B9249EA2B13488A000A2DB2 /* AchieveYourGoal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AchieveYourGoal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9249ED2B13488A000A2DB2 /* AchieveYourGoalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveYourGoalApp.swift; sourceTree = "<group>"; };
 		7B9249EF2B13488A000A2DB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			children = (
 				7B9249FF2B134C70000A2DB2 /* ComposableView */,
 				7B9249EF2B13488A000A2DB2 /* HomeView.swift */,
+				7B502FF62B161DF0008B35A0 /* HomeConfigView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7B924A062B135D2D000A2DB2 /* HeaderView.swift */,
+				7B502FF42B1616C4008B35A0 /* PlusButtonImage.swift */,
 			);
 			path = ComposableView;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 				7B924A012B134F21000A2DB2 /* Fixed.swift in Sources */,
 				7B9249F02B13488A000A2DB2 /* HomeView.swift in Sources */,
 				7B9249EE2B13488A000A2DB2 /* AchieveYourGoalApp.swift in Sources */,
+				7B502FF72B161DF0008B35A0 /* HomeConfigView.swift in Sources */,
 				7B924A032B1355BA000A2DB2 /* HomeViewModel.swift in Sources */,
+				7B502FF52B1616C4008B35A0 /* PlusButtonImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
